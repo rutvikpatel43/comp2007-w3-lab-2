@@ -13,5 +13,15 @@ namespace comp2007_w3_lab_2
         {
 
         }
+
+        protected void Cancel_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+
+        protected void Submit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
